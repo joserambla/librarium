@@ -1,2 +1,6 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="jumbotron">
+  <h1>Bienvenido a Librarium</h1>
+  <p>Tu librería de referencia en la deep web</p>
+  <%= link_to "Libros", "#", class: "btn btn-primary" %>
+  <%= link_to "Registrarse", new_user_registration_path, class: "btn btn-primary" %>
+</div>
