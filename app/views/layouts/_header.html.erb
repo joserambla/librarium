@@ -16,7 +16,7 @@
       
       
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to 'Libros', '#' %></li>
+        <li><%= link_to 'Libros', books_path %></li>
         <% if current_user %>
           <li><%= link_to 'Mi cuenta', edit_user_registration_path %></li>
           <li><%= link_to 'Salir', destroy_user_session_path, method: :delete %></li>
